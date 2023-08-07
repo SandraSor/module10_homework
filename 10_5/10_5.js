@@ -23,7 +23,7 @@ btn.addEventListener('click', ()=>{
     div.innerHTML = "Лимит вне диапазона от 1 до 10";
     flag=false;
   }
-  if(((page.value <1) || (page.value >10)) && ((page.value <1) || (page.value >10))){
+  if(((page.value <1) || (page.value >10)) && ((limit.value <1) || (limit.value >10))){
     div.innerHTML = "Номер страницы и лимит вне диапазона от 1 до 10";
     flag=false;
   }
