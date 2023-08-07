@@ -5,7 +5,7 @@ const btn= document.querySelector('.btn_req');
 const result= document.querySelector('.result');
 
 const fetchData = () => {
-  return fetch(`https://picsum.photos/v2/list?page=${page}&limit=${limit}`)
+  return fetch(`https://picsum.photos/v2/list?page=${page.value}&limit=${limit.value}`)
   .then(res => return res.json())
   .then(json => return json)
   .catch(() => { console.log('error') });
