@@ -1,0 +1,13 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.limit{
+  margin-bottom:15px;
+}
+
+.btn_req{
+  width:30%;
+}
