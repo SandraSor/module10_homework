@@ -14,7 +14,7 @@ btn.addEventListener('click', async () => {
   console.log('start');
   
   if((typeof width === 'number') && (typeof height === 'number') && (width>=100 && width<=300) && (height>=100 && height<=300)){
-    const requestResult = await useRequest();
+    const requestResult = await fetchData();
     console.log('requestResult', requestResult);
     result.innerHTML=`<div class="card">
         <img
